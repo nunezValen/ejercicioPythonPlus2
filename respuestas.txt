@@ -1,0 +1,24 @@
+la funcion calc_value saca el promedio de todas las areas protegidas.
+lo que hace es un for que recorre todas las columnas de area y las va sumando
+y luego divide entre la cantidad de datos para conseguir un promedio.
+
+my function lo que hace es crear una lista filtrando en el datasets
+segun si son menor al promedio y si tap = al enviado por args.
+
+lo que termina imprimiendo es la cantidad de areas protegidas con tap = 1 o 2
+tienen area menor al promedio. 
+
+y luego imprime cuantas con tap = 3 tienen menor al promedio.
+
+
+2a: se convierte a lista para que los datos puedan ser manipulados más facilmente
+ya que podemos ver que busca acceder con indice. 
+En las variables header: se almacena el nombre de cada columna, esto para no iterar sobre 
+la misma que no posee datos.
+Data: guarda todo el dataset sin la fila de nombres y en formato de lista.
+
+ventajas:
+1- Mucha menor escritura de codigo. 
+2- Más simplicidad a la hora de escribir, me ahorré fors ya que los metodos lo hacian.
+3- Evito tener que hacer close o usar with.
+4- Metodos pandas.
